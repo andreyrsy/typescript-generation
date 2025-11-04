@@ -8,5 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyrsy/typescript-generation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreyrsy/typescript-generation/issues"
+  },
+  "homepage": "https://github.com/andreyrsy/typescript-generation#readme",
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
 }
