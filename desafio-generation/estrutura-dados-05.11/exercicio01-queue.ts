@@ -3,9 +3,9 @@ import readlinesync = require("readline-sync")
 
 const fila = new Queue<string>();
 
- let option: number;
+let option: number;
 
-do{
+do {
   console.log("1 - Adicionar Cliente na fila");
   console.log("2 - Listar todos os Clientes");
   console.log("3 - Retirar Cliente da Fila");
@@ -13,7 +13,7 @@ do{
   console.log("--------------------------------------------")
   option = readlinesync.questionInt("Entre com a opcao desejada: ");
 
-  switch(option){
+  switch (option) {
     case 1:
       let cliente = readlinesync.question("\nNome do cliente: ")
       fila.enqueue(cliente);
@@ -31,8 +31,8 @@ do{
       console.log("--------------------------------------------\n");
       break;
     default:
-      console.log("Saindo do programa...")
+      console.log("Programa Finalizado!")
       break;
   }
 
-}while(option != 0);
+} while (option != 0);
