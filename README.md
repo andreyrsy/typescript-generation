@@ -93,8 +93,5 @@ Este projeto é parte de uma jornada de aprendizado no bootcamp Fullstack da Gen
 - [Projeto TypeScript](https://github.com/andreyrsy/typescript-generation) (Este repositório)
 - [Projeto Conta Bancária](https://github.com/andreyrsy/conta-bancaria-bootcamp)
 
-## 📬 Contato
-- [GitHub](https://github.com/andreyrsy)
-
 ---
 ⭐ Desenvolvido como parte do programa de Desenvolvimento Fullstack JavaScript da Generation Brasil.
