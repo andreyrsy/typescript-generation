@@ -1,0 +1,16 @@
+import { Animal } from "./Animal";
+
+export class Preguica extends Animal {
+
+  constructor(nome: string, idade: number) {
+    super(nome, idade);
+  }
+
+  public emitirSom(): void {
+      console.log(`${this._nome} emitindo um som sonolento: Zzzzz...`);
+  }
+
+  public escalarArvore(): void{
+    console.log(`${this._nome} está escalando a árvore lentamente!`);
+  }
+}
