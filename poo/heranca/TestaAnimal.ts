@@ -22,4 +22,3 @@ preguica.escalarArvore();
 
 const animal: Animal = new Cavalo("Pé de pano", 4);
 animal.emitirSom();
-
